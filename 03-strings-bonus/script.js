@@ -6,10 +6,8 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 // 1. Cerca un carattere in una stringa
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
-const cityIndex = cityName.search("y");
-console.log(cityIndex); // Output: 4 || output sbagliato, la stringa inizia conm indice 0 non con indice 1
-// Output corretto : 3
-
+const cityIndex = city.search("Y");
+console.log(cityIndex); // Output: 4 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
 const citySubstring = city.substring(4); //oppure city.substring(4, 8)
